@@ -8,7 +8,7 @@ local hi = utils.hi
 function M.setup(colors)
 	-- Indent Blankline v2 (legacy)
 	hi("IndentBlanklineChar", { ctermfg = colors.br_black })
-	hi("IndentBlanklineContextChar", { ctermfg = colors.br_blue })
+	hi("IndentBlanklineContextChar", { ctermfg = colors.br_black })
 	hi("IndentBlanklineContextStart", { cterm = "underline" })
 	hi("IndentBlanklineSpaceChar", { ctermfg = colors.br_black })
 	hi("IndentBlanklineSpaceCharBlankline", { ctermfg = colors.br_black })
@@ -16,7 +16,7 @@ function M.setup(colors)
 	-- Indent Blankline v3 (current)
 	hi("IblIndent", { ctermfg = colors.br_black })
 	hi("IblWhitespace", { ctermfg = colors.br_black })
-	hi("IblScope", { ctermfg = colors.br_blue })
+	hi("IblScope", { ctermfg = colors.br_black })
 
 	-- Rainbow indent colors for v3
 	hi("RainbowDelimiterRed", { ctermfg = colors.br_red })
@@ -36,13 +36,13 @@ function M.setup(colors)
 	hi("IndentLevel6", { ctermfg = colors.br_black })
 
 	-- Context highlighting
-	hi("IndentContext", { ctermfg = colors.br_blue })
+	hi("IndentContext", { ctermfg = colors.br_black })
 	hi("IndentContextStart", { cterm = "underline" })
 	hi("IndentContextEnd", { cterm = "underline" })
 
 	-- Scope highlighting
-	hi("IndentScope", { ctermfg = colors.br_blue })
-	hi("IndentScopeActive", { ctermfg = colors.br_blue, cterm = "bold" })
+	hi("IndentScope", { ctermfg = colors.br_black })
+	hi("IndentScopeActive", { ctermfg = colors.br_black, cterm = "bold" })
 	hi("IndentScopeInactive", { ctermfg = colors.br_black })
 
 	-- Error highlighting
@@ -51,20 +51,20 @@ function M.setup(colors)
 
 	-- Custom bracket highlighting
 	hi("IndentBracket", { ctermfg = colors.white })
-	hi("IndentBracketActive", { ctermfg = colors.br_blue, cterm = "bold" })
+	hi("IndentBracketActive", { ctermfg = colors.br_black, cterm = "bold" })
 
 	-- Fold integration
 	hi("IndentFold", { ctermfg = colors.br_black })
-	hi("IndentFoldActive", { ctermfg = colors.br_blue })
+	hi("IndentFoldActive", { ctermfg = colors.br_black })
 
 	-- Virtual text
 	hi("IndentVirtualText", { ctermfg = colors.br_black })
-	hi("IndentVirtualTextActive", { ctermfg = colors.br_blue })
+	hi("IndentVirtualTextActive", { ctermfg = colors.br_black })
 
 	-- Line highlighting
 	hi("IndentLine", { ctermfg = colors.br_black })
-	hi("IndentLineActive", { ctermfg = colors.br_blue })
-	hi("IndentLineContext", { ctermfg = colors.br_blue, ctermbg = colors.br_black })
+	hi("IndentLineActive", { ctermfg = colors.br_black })
+	hi("IndentLineContext", { ctermfg = colors.br_black })
 end
 
 return M

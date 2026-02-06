@@ -48,7 +48,7 @@ hi("MiniIconsRed", { ctermfg = colors.br_red })
 hi("MiniIconsYellow", { ctermfg = colors.blue })
 
 -- Mini.indentscope - commonly used
-hi("MiniIndentscopeSymbol", { ctermfg = colors.cyan })
+hi("MiniIndentscopeSymbol", { ctermfg = colors.br_black })
 hi("MiniIndentscopeSymbolOff", { ctermfg = colors.br_black })
 
 -- Mini.jump/jump2d - commonly used

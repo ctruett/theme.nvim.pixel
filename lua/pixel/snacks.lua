@@ -26,6 +26,10 @@ hi("SnacksInputNormal", { ctermfg = colors.white, ctermbg = colors.br_black })
 hi("SnacksInputBorder", { ctermfg = colors.br_black, ctermbg = colors.br_black })
 hi("SnacksInputTitle", { ctermfg = colors.blue, cterm = "bold" })
 
+-- Snacks indent
+hi("SnacksIndent", { ctermfg = colors.br_black })
+hi("SnacksIndentScope", { ctermfg = colors.br_black })
+
 -- Snacks picker (file picker)
 hi("SnacksPickerNormal", { ctermfg = colors.white, ctermbg = colors.br_black })
 hi("SnacksPickerBorder", { ctermfg = colors.br_black, ctermbg = colors.br_black })
