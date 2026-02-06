@@ -30,7 +30,7 @@ hi("BufferLineModified", { ctermfg = colors.green })
 hi("BufferLineSeparator", { ctermfg = colors.br_black })
 
 -- Tab bar fill
-hi("BufferLineFill", {})
+hi("BufferLineFill", { ctermbg = colors.black })
 
 -- Tabs (when in tab mode)
 hi("BufferLineTabSelected", { ctermfg = colors.white, cterm = "bold" })
