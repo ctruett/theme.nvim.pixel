@@ -159,6 +159,7 @@ function M.setup(opts)
 	require("pixel.markdown").setup(colors)
 	require("pixel.snacks").setup(colors)
 	require("pixel.blink").setup(colors)
+	require("pixel.bufferline").setup(colors)
 end
 
 -- Export colors and config for use in other modules
