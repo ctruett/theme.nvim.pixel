@@ -89,7 +89,7 @@ function M.setup(opts)
 	hi("Method", { ctermfg = colors.red })
 
 	-- UI elements
-	hi("Visual", { ctermfg = colors.white, ctermbg = colors.br_black })
+	hi("Visual", { ctermfg = colors.br_black })
 	hi("Search", { ctermfg = colors.black, ctermbg = colors.yellow, cterm = "bold" })
 	hi("IncSearch", { ctermfg = colors.black, ctermbg = colors.br_yellow, cterm = "bold" })
 	hi("StatusLine", { ctermfg = colors.white, ctermbg = colors.br_black, cterm = "bold" })
