@@ -25,6 +25,10 @@ function M.setup(colors)
 	hi("NeoTreeSelectedFile", { ctermfg = colors.white, ctermbg = colors.blue })
 	hi("NeoTreeSelectedDirectory", { ctermfg = colors.white, ctermbg = colors.blue })
 
+	-- Neo-tree indentation guides
+	hi("NeoTreeIndentMarker", { ctermfg = colors.br_black })
+	hi("NeoTreeExpander", { ctermfg = colors.br_black })
+
 	-- Neo-tree window and borders
 	hi("NeoTreeNormal", { ctermfg = colors.white })
 	hi("NeoTreeNormalNC", { ctermfg = colors.white })
