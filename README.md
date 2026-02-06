@@ -1,5 +1,7 @@
 # Pixel.nvim
 
+> This is a fork of [pixel.nvim](https://github.com/bjarneo/pixel.nvim) by [@iamdothash](https://x.com/iamdothash).
+
 A dynamic Neovim colorscheme that adapts to your terminal's color palette, inspired by the bat command-line tool's approach to color theming.
 
 ![Pixel.nvim with Monokai Terminal Colors](monokai.png)
